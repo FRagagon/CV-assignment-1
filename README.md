@@ -1,8 +1,8 @@
 # CV-assignment-1
 ## Training Process:
-To train this model,we first need to initialize the Neural Network class to build to a two-layers network.
-We can assign the Learning rate, dimension of inputs, dimension of hidden layer, dimension of outputs and regulation intensity to the network.
-After that, we should use the train function of the Neural Network class to train the model.Here, we need to put the images and the labels of the images into the function.What's more, we can choose the iter numbers for the training.
+To train this model,we just need to use the train function to generate a trained two layer neural network.
+The inputs of the function are train_image, train_label with one hot coding, test_image, test_label with one hot coding.
+What's more, we adjust the hyper paremeters and iter numbers assigned to the network(Learning rate,regulation intensity,dimension of hidden layer). The defualt parameters are those which have the best performance in parameter selection.(Learning rate = 0.2, regulation intensity = 8e-5, dimension of hidden layer = 50)
 
 ## Testing Process:
 To test this model,we can simply use the get_accuracy function of the neural network instance that we trained before. After we put the test images and their labels into that function, the function will return the accuracy of the model's prediction.
