@@ -7,7 +7,7 @@ After that, we should use the train function of the Neural Network class to trai
 ## Testing Process:
 To test this model,we can simply use the get_accuracy function of the neural network instance that we trained before. After we put the test images and their labels into that function, the function will return the accuracy of the model's prediction.
 
-## Save and load
+## Save and load:
 To save this model, we can use the save_model function of the Neural Network class.This function will save four npy files under the same directory as the python file.
 The four files indicate the parameter matrix of the first layer, the parameter matrix of the second layer, the bias of the first layer and the bias of the second layer.
 
